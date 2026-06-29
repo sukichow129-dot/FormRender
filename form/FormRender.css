@@ -1,0 +1,84 @@
+/* 整个网页 */
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin:40px;
+    font-size:18px;
+}
+
+/* 每个区块 */
+fieldset{
+    border:1px solid gray;
+    border-radius:8px;
+    margin-bottom:20px;
+    padding:20px;
+}
+
+/* 标题 */
+legend{
+    font-size:18px;
+    padding:0 10px;
+}
+
+/* 每一行 */
+div{
+    display:flex;
+    align-items:flex-start;
+    margin-bottom:15px;
+}
+
+/* 左边标签 */
+label{
+    width:220px;
+}
+
+/* 文字输入框 */
+input[type=text],
+input[type=email]{
+    width:350px;
+    height:35px;
+    padding:5px 10px;
+    font-size:16px;
+}
+
+/* 多行输入框 */
+textarea{
+    width:700px;
+    height:120px;
+    resize:vertical;
+    padding:10px;
+    font-size:16px;
+}
+
+/* 下拉选单 */
+select{
+    width:180px;
+    height:40px;
+    font-size:16px;
+}
+
+/* checkbox、radio */
+input[type=checkbox],
+input[type=radio]{
+    margin-right:5px;
+}
+
+input[type=checkbox] + label,
+input[type=radio] + label{
+    margin-right:15px;
+}
+
+/* Submit按钮 */
+input[type=submit]{
+    float:right;
+    background:#003cff;
+    color:white;
+    border:none;
+    border-radius:8px;
+    padding:12px 30px;
+    font-size:18px;
+    cursor:pointer;
+}
+
+input[type=submit]:hover{
+    background:#0028b8;
+}

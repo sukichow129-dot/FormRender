@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<head> 
+    <title>classwork</title>
+
+</head> 
+
+<body> 
+    <fieldset>
+        <legend>personal info</legend>
+        <div>
+            <label for="text" >username</label>
+            <input type="text" id="user" name="username" value="user1" size="50" maxlength="60"/>
+        </div>
+
+         <div>
+            <label for="password">password</label>
+            <input type="password" id="password" name="password"/>
+        </div>
+
+        <div>
+            <input type="date" id="date" name="date"/>
+            <input type="time" id="t" name="t">
+        </div>
+
+    </fieldset>
+    
+
+    <div>
+        <input type="checkbox" id="c1" name="bobbies[]" value="Music">Music
+        <input type="checkbox" id="c2" name="bobbies[]" value="Movies">Movies
+    </div>
+
+    <div>
+        <input type="radio" id="r1" name="status" value="Active"/>Active
+        <input type="radio" id="r2" name="status" value="Inactive"/>Inactive
+    </div>
+
+    <div>
+        <input type="file" id="f" name="f">
+    </div>
+
+    <div>
+        <label for="desc">Description</label>
+        <textarea name="desc" id="desc" rows="5" cols="50">This is defult textarea value</textarea>
+    </div>
+
+    <div>
+        <select id="category" name="category">
+            <option value="-1"></option>
+            <option value="0">Stationary</option>
+            <option value="1" selected>Gadget</option>
+        </select>
+    </div>
+
+    <div>
+        <input type="submit" id="submit" name="submit" value="OK">
+        <input type="reset" id="re" name="re" value="reset">
+    </div>
+</body> 
+
+</html> 
